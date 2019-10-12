@@ -19,7 +19,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pensions.Host", "Pensions.H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pensions.UnitTests", "Pensions.UnitTests\Pensions.UnitTests.csproj", "{B8AFFE5C-56BB-43AA-897D-394E44FDBB71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pensions.DependencyInjection", "Pensions.DependencyInjection\Pensions.DependencyInjection.csproj", "{EA13B53B-FA20-48E5-B544-937A1B260BC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pensions.DependencyInjection", "Pensions.DependencyInjection\Pensions.DependencyInjection.csproj", "{EA13B53B-FA20-48E5-B544-937A1B260BC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C0EE1C2-0499-44C7-AC84-E149EB50C83B}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
