@@ -15,12 +15,13 @@ where
 - Accrual = The accrual rate based on the last end date of the members service (or today if the member is still in employment)
 
 The HR team has also given you the expected resulst for each member in the database.
+
 | Id | Expected Pension (12 OCt 2019) | Expected Formula (12 Oct 2019)     |
 | -- | ------------------------------ | ------------------------------     |
-| 1  | £6,956.85                      | `(10725 / 365) * (29594.98 / 125)` |
-| 2  | £2,063.87                      | `(3548/ 365) * (26540 / 125)`      |
-| 3  | £3,116.72                      | `(1580/ 365) * (90000.27/ 125)`    |
-| 4  | £8,562.82                      | `(7574/ 365) * (33012.20/ 80)`     |
+| 1  | Â£6,956.85                      | `(10725 / 365) * (29594.98 / 125)` |
+| 2  | Â£2,063.87                      | `(3548/ 365) * (26540 / 125)`      |
+| 3  | Â£3,116.72                      | `(1580/ 365) * (90000.27/ 125)`    |
+| 4  | Â£8,562.82                      | `(7574/ 365) * (33012.20/ 80)`     |
 
 ### Pre Requisites
 In this challenge, you will work with
