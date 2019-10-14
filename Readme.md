@@ -16,12 +16,12 @@ where
 
 The HR team has also given you the expected resulst for each member in the database.
 
-| Id | Expected Pension (12 OCt 2019) | Expected Formula (12 Oct 2019)     |
-| -- | ------------------------------ | ------------------------------     |
-| 1  | £6,956.85                      | `(10725 / 365) * (29594.98 / 125)` |
-| 2  | £2,063.87                      | `(3548/ 365) * (26540 / 125)`      |
-| 3  | £3,116.72                      | `(1580/ 365) * (90000.27/ 125)`    |
-| 4  | £8,562.82                      | `(7574/ 365) * (33012.20/ 80)`     |
+| Id (Basic.Id) | Expected Pension (12 OCt 2019) | Expected Formula (12 Oct 2019)     |
+| ------------- | ------------------------------ | ------------------------------     |
+| 1             | £6,956.85                      | `(10725 / 365) * (29594.98 / 125)` |
+| 2             | £2,063.87                      | `(3548/ 365) * (26540 / 125)`      |
+| 3             | £3,116.72                      | `(1580/ 365) * (90000.27/ 125)`    |
+| 4             | £8,562.82                      | `(7574/ 365) * (33012.20/ 80)`     |
 
 You should build your calculation API following the usual best practices such as SOLID principles.
 
@@ -35,7 +35,10 @@ and you will need the following tools
 - Visual Studio (2019 Community Edition or later)
 
 ### To Do List
-- [ ] Add a new calculations API controller endpoint
+- [ ] Add a new calculations API controller endpoint that takes a parameter Id (e.g. api/calculation/1).  Id should be the basic Id.
+
+and within the calculations controller
+
 - [ ] Get the service history for a member
 - [ ] Convert the service history for a member into days
 - [ ] Get the accrual rate for a  member based on their end date (or today if still in employment)
